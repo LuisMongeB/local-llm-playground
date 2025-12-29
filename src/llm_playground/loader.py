@@ -18,7 +18,7 @@ def load_model(model_id: str, **kwargs) -> tuple[PreTrainedModel, PreTrainedToke
     # Default configuration
     load_config = {
         "device_map": "auto" if device == "cuda" else None, # auto works best with CUDA/accelerate
-        "torch_dtype": torch.bfloat16 if torch.cuda.is_bf16_supported() or device == "mps" else torch.float16,
+        "dtype": torch.bfloat16 if torch.cuda.is_bf16_supported() or device == "mps" else torch.float16,
     }
     
     # Update defaults with user-provided kwargs
