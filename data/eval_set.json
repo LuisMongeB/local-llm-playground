@@ -1,0 +1,10 @@
+[
+  {
+    "question": "What is the capital of France?",
+    "reference": "Paris"
+  },
+  {
+    "question": "Explain quantum entanglement in simple terms.",
+    "reference": "Quantum entanglement is a phenomenon where two particles become linked so that the state of one instantly influences the state of the other, regardless of distance."
+  }
+]
