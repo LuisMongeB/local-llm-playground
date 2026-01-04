@@ -40,3 +40,6 @@ venv.bak/
 .idea/
 *.swp
 .DS_Store
+
+# Models
+models/
