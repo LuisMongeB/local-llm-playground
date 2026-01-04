@@ -12,7 +12,7 @@ from llm_playground.core import cleanup
 def mock_judge(question, reference, answer):
     """
     A dummy judge that just gives a random score for the smoke test.
-    In a real scenario, this would call GPT-4.
+    In a real scenario, this would call GPT-4.1 or higher.
     """
     print(f"\n[Judge]\nQ: {question}\nRef: {reference}\nGen: {answer}\n")
     return 3 # Placeholder score
