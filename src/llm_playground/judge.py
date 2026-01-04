@@ -22,7 +22,7 @@ class Judge(ABC):
         return self.grade(question, reference, answer)
 
 class OpenAIJudge(Judge):
-    def __init__(self, model_name: str = "gpt-4o", api_key: str | None = None):
+    def __init__(self, model_name: str = "gpt-4.1-mini", api_key: str | None = None):
         self.model_name = model_name
         self.client = OpenAI(api_key=api_key or os.getenv("OPENAI_API_KEY"))
 
