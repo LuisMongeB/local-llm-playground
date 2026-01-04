@@ -1,0 +1,29 @@
+[
+    {
+        "question": "Which of these plants is from the Gesneriaceae family?",
+        "reference": "Alsobia",
+        "documents": [
+            "Weldenia is a monotypic genus of flowering plant in the family Commelinaceae, first described as a genus in 1829.",
+            "Hagsatera is a genus of flowering plants from the orchid family, Orchidaceae.",
+            "Alsobia is a genus of flowering plants in the family Gesneriaceae, native to Mexico, Guatemala and Costa Rica."
+        ]
+    },
+    {
+        "question": "What is the primary ingredient in the secret sauce?",
+        "reference": "The primary ingredient is spicy mango chutney.",
+        "documents": [
+            "The classic burger sauce is made with ketchup and mayonnaise.",
+            "Our secret sauce, unlike traditional recipes, uses spicy mango chutney as its base component.",
+            "Some chefs prefer a yogurt-based sauce for lighter meals."
+        ]
+    },
+    {
+        "question": "When was the project 'Blue Sky' officially launched?",
+        "reference": "October 15, 2023",
+        "documents": [
+            "Project 'Red Earth' began in early 2022.",
+            "The 'Blue Sky' initiative was proposed in June but officially launched on October 15, 2023.",
+            "The 'Green Water' project has been postponed indefinitely."
+        ]
+    }
+]
